@@ -1,6 +1,6 @@
 # README #
 
-This repository is the mirror of [crest](https://github.com/jburnim/crest) work well in ubuntu 18.04.
+This repository is the mirror of [crest](https://github.com/jburnim/crest) worked well in ubuntu 18.04.
 
 
 ### To Start ###

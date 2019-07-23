@@ -3,7 +3,7 @@
 This repository is the mirror of [crest](https://github.com/jburnim/crest) work well in ubuntu 18.04.
 
 
-### SEETUP ###
+### To Start ###
 
 * 1 Add ocaml compiler in your environment.
 
@@ -25,7 +25,7 @@ make
 
 ```
 #first line
-
+YICES-DIR=xxx
 ```
 
 * 4 Build the crest
@@ -33,12 +33,8 @@ make
 ```
 cd crest-master/src
 make
-
 ```
 
-Then, if Lucky, the crest will work OK.
+### Notice ###
 
-Otherwise, Following question I countered.
-
-### ERROR I MEET ###
-
+* Almost errors I met can be solved in [crest issues](https://github.com/jburnim/crest)

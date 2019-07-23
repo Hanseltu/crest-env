@@ -3,7 +3,7 @@
 This repository is the mirror of [crest](https://github.com/jburnim/crest) work well in ubuntu 18.04.
 
 
-### How do I get set up? ###
+### SEETUP ###
 
 * 1 Add ocaml compiler in your environment.
 

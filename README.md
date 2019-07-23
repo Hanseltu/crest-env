@@ -1,29 +1,44 @@
 # README #
 
-This README would normally document whatever steps are necessary to get your application up and running.
+This repository is the mirror of [crest](https://github.com/jburnim/crest) work well in ubuntu 18.04.
 
-### What is this repository for? ###
-
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
 
 ### How do I get set up? ###
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+* 1 Add ocaml compiler in your environment.
 
-### Contribution guidelines ###
+```
+cd ocaml-4.01.0
+./configure
+make world.opt
+make install
+```
+* 2 Compile the crest-master/cil
 
-* Writing tests
-* Code review
-* Other guidelines
+```
+cd cil
+./configure
+make
+```
 
-### Who do I talk to? ###
+* 3 Change *YICES-DIR* in the  **Makefile** located at crest-master/src
 
-* Repo owner or admin
-* Other community or team contact
+```
+#first line
+
+```
+
+* 4 Build the crest
+
+```
+cd crest-master/src
+make
+
+```
+
+Then, if Lucky, the crest will work OK.
+
+Otherwise, Following question I countered.
+
+### ERROR I MEET ###
+

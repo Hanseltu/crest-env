@@ -39,3 +39,7 @@ make
 ### Notice ###
 
 * Almost errors I met can be solved in [crest issues](https://github.com/jburnim/crest)
+
+### More Information ###
+
+* http://www.burn.im/crest
